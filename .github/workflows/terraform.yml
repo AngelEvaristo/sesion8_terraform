@@ -26,6 +26,9 @@ jobs:
 
       - name: terraform apply
         run: terraform apply -auto-approve -var="nombre=testfile"
-        
+
+      - name: validar files
+        run: ls  
+
 
 
